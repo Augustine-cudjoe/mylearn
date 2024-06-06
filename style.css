@@ -1,0 +1,42 @@
+
+body{
+    margin: 0;
+    padding: 0%;
+
+}
+* {
+    box-sizing: border-box;
+  }
+
+
+.full-width{
+    width: 100%;
+    height: auto;
+}
+#feature-image{
+    width: 20px;
+    height: auto;
+}
+.subcribe{
+    background-image: url(../img/subscribe-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.brand-icon img, .navbar-brand img{
+   width: 40px;
+   height: auto; 
+}
+
+
+.copy{
+background-color: black;
+}
+.blur-filter{
+  backdrop-filter: blur(8px); 
+  background-color: rgb(255 255 255 / 30%); 
+}
+ul> .list-unstyled > a:hover{
+background-color: blueviolet;
+cursor: pointer;
+
+}
